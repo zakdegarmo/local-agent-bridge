@@ -1,0 +1,25 @@
+{
+  "name": "local-agent-bridge",
+  "version": "0.1.0",
+  "description": "Zero-dependency local-first AI bridge: drop-in Gemini-to-Ollama dual proxy, workspace-jailed file tools, and local RAG.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "local-agent-bridge": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test test/bridge.test.mjs"
+  },
+  "keywords": [
+    "ollama",
+    "gemini",
+    "local-ai",
+    "llm-proxy",
+    "rag",
+    "agent-bridge"
+  ]
+}
